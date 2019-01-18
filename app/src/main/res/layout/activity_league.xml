@@ -63,8 +63,10 @@
             android:text="@string/next"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button2" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:id="@+id/leagueNextButton" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp" android:layout_marginBottom="16dp"
             app:layout_constraintBottom_toBottomOf="@+id/bgImage" android:background="@drawable/swoosh_button"
-            android:fontFamily="@font/montserrat" android:textColor="@color/colorAccent" android:textStyle="bold"/>
+            android:fontFamily="@font/montserrat" android:textColor="@color/colorAccent" android:textStyle="bold"
+            android:onClick="leagueNextClicked"/>
 </android.support.constraint.ConstraintLayout>
